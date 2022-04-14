@@ -6,7 +6,7 @@ import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
 const  DashboardMap = ({properties}) => {
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
-        googleMapsApiKey: process.env.GOOGLE_MAP_API_KEY
+        googleMapsApiKey: 'AIzaSyBdCfjosIpNizE0NHaZCwbuK7FJarJ7Kjk'
     })
 
     const containerStyle = {
